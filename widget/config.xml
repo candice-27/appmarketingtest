@@ -42,10 +42,7 @@
 		<param name="apiSecret" value="13c75de4dc94d863cbfd401bb6df46cd"/>
 
 	</feature>
-	<feature name="qq">
-		<param name="urlScheme" value="tencent101064640" />
-		<param name="apiKey" value="101064640" />
-	</feature>
+	<feature name="QQPlus">		<param name="urlScheme" value="tencent101064640" />		<param name="apiKey" value="101064640" />	</feature>
 	<feature name="weibo">
 		<param name="urlScheme" value="wb1132217156" />
 		<param name="apiKey" value="1132217156" />
