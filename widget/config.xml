@@ -1,4 +1,4 @@
- <widget id="A6003302728949"  version="0.0.1">
+<widget id="A6003302728949" version="0.0.1">
 
     <name>appmarketingtest</name>
 
@@ -14,53 +14,43 @@
 
     </author>
 
-    <content src="index.html" />
+    <content src="index.html"/>
 
-    <access origin="*" />
+    <access origin="*"/>
 
     <preference name="pageBounce" value="false"/>
-	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
-	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
-	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
-	<preference name="hScrollBarEnabled" value="true"/>
-	<preference name="vScrollBarEnabled" value="true"/>
-	<preference name="autoLaunch" value="true"/>
-	<preference name="fullScreen" value="false"/>
-	<preference name="autoUpdate" value="true" />
-	<preference name="smartUpdate" value="false" />
-	<preference name="debug" value="false"/>
-	<preference name="statusBarAppearance" value="false"/>
-	<permission name="readPhoneState" />
-	<permission name="camera" />
-	<permission name="record" />
-	<permission name="location" />
-	<permission name="fileSystem" />
-	<permission name="internet" />
-	<permission name="bootCompleted" />
-	<permission name="hardware" />
-	<feature name="sinaWeiBo">
-		<param name="urlScheme" value="wb1132217156" />
-		<param name="apiKey" value="1132217156" />
-		<param name="registUrl" value="http://www.apicloud.com" />
-	</feature>
-	<feature name="wx">
-
-		<param name="urlScheme" value="wx8cd679467feb854a"/>
-
-		<param name="apiKey" value="wx8cd679467feb854a"/>
-
-		<param name="apiSecret" value="13c75de4dc94d863cbfd401bb6df46cd"/>
-
-	</feature>
-	<feature name="QQPlus">
-		<param name="urlScheme" value="tencent101064640" />
-		<param name="apiKey" value="101064640" />
-	</feature>
-	<feature name="weibo">
-		<param name="urlScheme" value="wb1132217156" />
-		<param name="apiKey" value="1132217156" />
-		<param name="registUrl" value="http://www.apicloud.com" />
-	</feature>
-
+    <preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+    <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+    <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+    <preference name="hScrollBarEnabled" value="true"/>
+    <preference name="vScrollBarEnabled" value="true"/>
+    <preference name="autoLaunch" value="true"/>
+    <preference name="fullScreen" value="false"/>
+    <preference name="autoUpdate" value="true"/>
+    <preference name="smartUpdate" value="false"/>
+    <preference name="debug" value="false"/>
+    <preference name="statusBarAppearance" value="false"/>
+    <permission name="readPhoneState"/>
+    <permission name="camera"/>
+    <permission name="record"/>
+    <permission name="location"/>
+    <permission name="fileSystem"/>
+    <permission name="internet"/>
+    <permission name="bootCompleted"/>
+    <permission name="hardware"/>
+    <feature name="wx">
+        <param name="urlScheme" value="wx8cd679467feb854a"/>
+        <param name="apiKey" value="wx8cd679467feb854a"/>
+        <param name="apiSecret" value="13c75de4dc94d863cbfd401bb6df46cd"/>
+    </feature>
+    <feature name="QQPlus">
+        <param name="urlScheme" value="tencent101064640"/>
+        <param name="apiKey" value="101064640"/>
+    </feature>
+    <preference name="querySchemes" value="sinaweibohd,sinaweibo,weibosdk,weibosdk2.5"/>
+    <feature name="weiboPlus">
+        <param name="urlScheme" value="wb1132217156"/>
+        <param name="apiKey" value="1132217156"/>
+        <param name="registUrl" value="http://www.weibo.com"/>
+    </feature>
 </widget>
-
